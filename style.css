@@ -1,0 +1,316 @@
+
+*{   
+   margin: 0;
+   padding: 0;
+}
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f0ff;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+}
+.section{
+      display: inline-block;
+      padding: 6px 20px;
+      border: 1px solid #6b3cff;
+      color: #6b3cff;
+      border-radius: 20px;
+      font-weight: bold;
+      margin-bottom: 15px; 
+}
+h2{
+      font-family: sans-serif;
+      font-size: 48px;
+      margin: 10px 0;
+}
+p{
+      font-size: 20px;
+}
+
+.price-container{
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+}
+/* Startup section start */
+.card {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: left;
+      transition: transform 0.3s;
+}
+.card:hover{
+      transform: translateY(-10px);
+}
+.card h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+}
+p.small{
+      display: block;
+      color: #666;
+      margin-bottom: 15px;
+}
+.price{
+      font-family: sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      color: #6335fc;
+      margin: 15px 0;
+}
+
+.price span{
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #b5b4b4;
+}
+.divider {
+      border-bottom: 1px solid gray;
+      margin: 20px 0;
+}
+.features-title {
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+
+.features {
+      padding: 0;
+      margin: 0;
+}
+.features li{
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+}
+.features i{
+      font-size: 20px;
+      color: #6b3cff;
+}
+
+h4 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+}
+
+.bonus-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+}
+
+.bonus-list li {
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+      color: #333;
+}
+.bonus-list i{
+      font-size: 20px;
+      color: #6b3cff;
+}
+
+.btn {
+      display: block;
+      width: 270px;
+      padding: 10px 16px;
+      text-align: center;
+      background:  #4B5EAA;
+      color: #fff;
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      border-radius: 30px;
+      transition: 0.3s;
+      text-decoration: none;
+}
+
+.btn:hover {
+      background: linear-gradient(135deg, #4f1fff, #6b3cff);
+      transform: translateY(-5px);
+}
+/* Startup section end  */
+
+/*  Growth section start */
+.popular {
+      background: #6b3cff;
+      color: #fff;
+      position: relative;
+    }
+.card popular {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      width: 300px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      text-align: left;
+      transition: transform 0.3s;
+}
+.card popular:hover{
+      transform: translate(-10px);
+}
+.card popular h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+}
+.price2{
+      font-family: sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      color:white;
+      margin: 15px 0;
+}
+
+.price2 span{
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #b5b4b4;
+}
+
+.most {
+      font-family: sans-serif;
+      margin: 20px 100px 20px 5px;
+      background: white;
+      color: #6b3cff;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 20px;
+}
+.features2 {
+      padding: 0;
+      margin: 0;
+}
+.features2 li{
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+}
+.features2 i{
+      font-size: 20px;
+      color: white;
+}
+.bonus-item {
+      margin: 10px 0;
+      font-size: 16px;
+}
+.bonus-list2 li {
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+      color:white;
+}
+.bonus-list2 i{
+      font-size: 20px;
+      color: white;
+}
+
+
+.book-btn {
+      display: block;
+      width: 270px;
+      padding: 10px 16px;
+      text-align: center;
+      background:  white;
+      color:#4B5EAA;
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      border-radius: 30px;
+      transition: 0.3s;
+      text-decoration: none;
+}
+.book-btn:hover {
+      background: white;
+      transform: translate(-5px);
+}
+/*  Growth section end */
+
+
+.price3{
+      font-family: sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      color: #6335fc;
+      margin: 15px 0;
+}
+
+.price3 span{
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #b5b4b4;
+}
+.divider {
+      border-bottom: 1px solid gray;
+      margin: 20px 0;
+}
+.features3-title {
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+}
+
+.features3 {
+      padding: 0;
+      margin: 0;
+}
+.features3 li{
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+}
+.features3 i{
+      font-size: 20px;
+      color: #6b3cff;
+}
+
+.bonus-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+}
+
+.bonus-list li {
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+      color: #333;
+}
+.bonus-list i{
+      font-size: 20px;
+      color: #6b3cff;
+}
+
+.btn2 {
+      display: block;
+      width: 270px;
+      padding: 10px 16px;
+      text-align: center;
+      background:  #4B5EAA;
+      color: #fff;
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      border-radius: 30px;
+      transition: 0.3s;
+      text-decoration: none;
+}
+
+.btn2:hover {
+      background: linear-gradient(135deg, #4f1fff, #6b3cff);
+      transform: translate(-5px);
+}
